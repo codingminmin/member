@@ -1,9 +1,14 @@
 <?php
-$user = "user";
-$pass = "pass";
+// $user = "user";
+// $pass = "pass";
 
-$name = "name";
-$tel = "tel";
+// $name = "name";
+// $tel = "tel";
+
+$user = $_POST["user"];
+$pass = $_POST["pass"];
+$name = $_POST["name"];
+$tel = $_POST["tel"];
 
 $servername = "localhost";
 $username = "root";
